@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CC5F563271EFE16007C4A0A /* OnBoarding_Screen_AnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC5F550271EFE14007C4A0A /* OnBoarding_Screen_AnimationApp.swift */; };
+		1CC5F564271EFE16007C4A0A /* OnBoarding_Screen_AnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC5F550271EFE14007C4A0A /* OnBoarding_Screen_AnimationApp.swift */; };
+		1CC5F565271EFE16007C4A0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC5F551271EFE14007C4A0A /* ContentView.swift */; };
+		1CC5F566271EFE16007C4A0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC5F551271EFE14007C4A0A /* ContentView.swift */; };
+		1CC5F567271EFE16007C4A0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC5F552271EFE16007C4A0A /* Assets.xcassets */; };
+		1CC5F568271EFE16007C4A0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC5F552271EFE16007C4A0A /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1CC5F550271EFE14007C4A0A /* OnBoarding_Screen_AnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding_Screen_AnimationApp.swift; sourceTree = "<group>"; };
+		1CC5F551271EFE14007C4A0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1CC5F552271EFE16007C4A0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CC5F557271EFE16007C4A0A /* OnBoarding Screen Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OnBoarding Screen Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC5F55A271EFE16007C4A0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CC5F55F271EFE16007C4A0A /* OnBoarding Screen Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OnBoarding Screen Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC5F561271EFE16007C4A0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CC5F562271EFE16007C4A0A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CC5F554271EFE16007C4A0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC5F55C271EFE16007C4A0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CC5F54A271EFE14007C4A0A = {
+			isa = PBXGroup;
+			children = (
+				1CC5F54F271EFE14007C4A0A /* Shared */,
+				1CC5F559271EFE16007C4A0A /* iOS */,
+				1CC5F560271EFE16007C4A0A /* macOS */,
+				1CC5F558271EFE16007C4A0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CC5F54F271EFE14007C4A0A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1CC5F550271EFE14007C4A0A /* OnBoarding_Screen_AnimationApp.swift */,
+				1CC5F551271EFE14007C4A0A /* ContentView.swift */,
+				1CC5F552271EFE16007C4A0A /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		1CC5F558271EFE16007C4A0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CC5F557271EFE16007C4A0A /* OnBoarding Screen Animation.app */,
+				1CC5F55F271EFE16007C4A0A /* OnBoarding Screen Animation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CC5F559271EFE16007C4A0A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1CC5F55A271EFE16007C4A0A /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		1CC5F560271EFE16007C4A0A /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				1CC5F561271EFE16007C4A0A /* Info.plist */,
+				1CC5F562271EFE16007C4A0A /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CC5F556271EFE16007C4A0A /* OnBoarding Screen Animation (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CC5F56B271EFE16007C4A0A /* Build configuration list for PBXNativeTarget "OnBoarding Screen Animation (iOS)" */;
+			buildPhases = (
+				1CC5F553271EFE16007C4A0A /* Sources */,
+				1CC5F554271EFE16007C4A0A /* Frameworks */,
+				1CC5F555271EFE16007C4A0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OnBoarding Screen Animation (iOS)";
+			productName = "OnBoarding Screen Animation (iOS)";
+			productReference = 1CC5F557271EFE16007C4A0A /* OnBoarding Screen Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CC5F55E271EFE16007C4A0A /* OnBoarding Screen Animation (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CC5F56E271EFE16007C4A0A /* Build configuration list for PBXNativeTarget "OnBoarding Screen Animation (macOS)" */;
+			buildPhases = (
+				1CC5F55B271EFE16007C4A0A /* Sources */,
+				1CC5F55C271EFE16007C4A0A /* Frameworks */,
+				1CC5F55D271EFE16007C4A0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OnBoarding Screen Animation (macOS)";
+			productName = "OnBoarding Screen Animation (macOS)";
+			productReference = 1CC5F55F271EFE16007C4A0A /* OnBoarding Screen Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CC5F54B271EFE14007C4A0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					1CC5F556271EFE16007C4A0A = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					1CC5F55E271EFE16007C4A0A = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 1CC5F54E271EFE14007C4A0A /* Build configuration list for PBXProject "OnBoarding Screen Animation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CC5F54A271EFE14007C4A0A;
+			productRefGroup = 1CC5F558271EFE16007C4A0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CC5F556271EFE16007C4A0A /* OnBoarding Screen Animation (iOS) */,
+				1CC5F55E271EFE16007C4A0A /* OnBoarding Screen Animation (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CC5F555271EFE16007C4A0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC5F567271EFE16007C4A0A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC5F55D271EFE16007C4A0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC5F568271EFE16007C4A0A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CC5F553271EFE16007C4A0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC5F565271EFE16007C4A0A /* ContentView.swift in Sources */,
+				1CC5F563271EFE16007C4A0A /* OnBoarding_Screen_AnimationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC5F55B271EFE16007C4A0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC5F566271EFE16007C4A0A /* ContentView.swift in Sources */,
+				1CC5F564271EFE16007C4A0A /* OnBoarding_Screen_AnimationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1CC5F569271EFE16007C4A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1CC5F56A271EFE16007C4A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1CC5F56C271EFE16007C4A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L94FRY6ZUZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dnstylish.com.OnBoarding-Screen-Animation";
+				PRODUCT_NAME = "OnBoarding Screen Animation";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CC5F56D271EFE16007C4A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L94FRY6ZUZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dnstylish.com.OnBoarding-Screen-Animation";
+				PRODUCT_NAME = "OnBoarding Screen Animation";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CC5F56F271EFE16007C4A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = L94FRY6ZUZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dnstylish.com.OnBoarding-Screen-Animation";
+				PRODUCT_NAME = "OnBoarding Screen Animation";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1CC5F570271EFE16007C4A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = L94FRY6ZUZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dnstylish.com.OnBoarding-Screen-Animation";
+				PRODUCT_NAME = "OnBoarding Screen Animation";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CC5F54E271EFE14007C4A0A /* Build configuration list for PBXProject "OnBoarding Screen Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC5F569271EFE16007C4A0A /* Debug */,
+				1CC5F56A271EFE16007C4A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CC5F56B271EFE16007C4A0A /* Build configuration list for PBXNativeTarget "OnBoarding Screen Animation (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC5F56C271EFE16007C4A0A /* Debug */,
+				1CC5F56D271EFE16007C4A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CC5F56E271EFE16007C4A0A /* Build configuration list for PBXNativeTarget "OnBoarding Screen Animation (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC5F56F271EFE16007C4A0A /* Debug */,
+				1CC5F570271EFE16007C4A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CC5F54B271EFE14007C4A0A /* Project object */;
+}
