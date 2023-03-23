@@ -111,7 +111,7 @@ struct OnBoarding: View {
                 HStack {
                     
                     Button {
-                        
+                        goToNextPage()
                     } label: {
                         
                         Text("Skip")
@@ -139,7 +139,7 @@ struct OnBoarding: View {
                     
                     
                     Button {
-                        
+                        goToNextPage()
                     } label: {
                         
                         Text("Next")
@@ -174,6 +174,12 @@ struct OnBoarding: View {
         
         return Int(process)
         
+    }
+    
+    func goToNextPage() {
+        if getIndex() + 2 < boardingScreens.count {
+            offset = offset + getScreenBounds().width
+        }
     }
 }
 
